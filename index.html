@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrés Felipe Ríos</title>
     <link rel="icon" type= "image/png" href="images/icon.png">
+    <style>
+        header{
+            background:green;
+        }
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <header style="color:red;background:blue">
         <div>
             <figure><img src="images/logo.png " alt = "logo de http://andresfrios.com">logo
             </figure>
         <nav>
             <ol>
                 <li>
-                    <a href="#">portafolio</a>
+                    <a href="./portafolio/index.html">portafolio</a>
                 </li>
                 <li>
-                    <a href="#" >Experiencia</a>
+                    <a href="#experiencia" >Experiencia</a>
                 </li>
                 <li>
-                    <a href="#">Trabajemos juntos   </a>
+                    <a href="#trabajemos">Trabajemos juntos   </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=yzGkvG9MMAU" target="_blank">videito aspero </a>
                 </li>
             </ol>
         </nav>
@@ -33,7 +42,7 @@
          </h1>
          <img src="images/portada.png" width ="500px" height="300px" alt="imagen principal del sitio"> imagen de portada
     </section>
-    <section>
+    <section id="portafolio">
         <h2>Portafolio (proyectos)</h2>
         <article> 
             <h3> enseñanza con Platzi</h3>
@@ -44,7 +53,7 @@
             <img src="images/proyecto.png" alt="imagen del proyecto" width= "800" Heigh ="500">
         </article>
     </section>
-    <section>
+    <section id="experiencia">
         <h2> Mas sobre mi experiencia</h2>
         <article>
            <figure>
@@ -55,7 +64,7 @@
            </figure>
         </article>
     </section>
-    <section> 
+    <section id="trabajemos"> 
         <form action="/suscripcion">
             <label for="email">déjame tu email</label>
             <input type="text" placeholder = "déjame tu e mail" value= "@gmail.com" id ="email">
