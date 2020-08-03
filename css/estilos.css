@@ -1,9 +1,45 @@
-body{
+/*body{
     background: #1B1464; 
 }
 section{
-    background: #006266;
+    background: #006266 ;
 }
 footer{
     background:#0652DD  ;
+}*/
+/*Selector de etiqueta header - section - article - nav*/
+/*selector descendente*/ 
+/*body header div nav ol li a*/
+/*.lin*/
+/*#portafolio#*/
+
+body{
+    font-family: 'source sans pro',sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla one',sans-serif;
+    font-weight: normal;
+    /*font-style: italic;*/
+    
+}
+
+h1{
+    font-family: 'Fjalla one',sans-serif;
+    line-height: 1.5em;  
+    font-size: 40px     ;
+    letter-spacing: -.2px;
+    /*text-transform: capitalize;*/
+
+    
+}
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width: 500px;
 }
