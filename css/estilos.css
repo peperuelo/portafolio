@@ -43,3 +43,9 @@ h1{
 .project-imageContainer{
     width: 500px;
 }
+.header{
+    background-color: rgb(37, 34, 34);
+}
+. header a {
+    color: white;
+}
