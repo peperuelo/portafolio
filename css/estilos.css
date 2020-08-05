@@ -15,6 +15,7 @@ footer{
 
 body{
     font-family: 'source sans pro',sans-serif;
+    margin: 0;
 }
 h1,
 h2,
@@ -58,8 +59,16 @@ h1 strong {
 .project{
     border: 1.5px solid cadetblue;
     border-radius: 10px;
+    margin: 10px;
     margin-bottom: 20px;
+    padding: 20px;
+
+
 }
+.portfolio{
+    background: #fafafa;
+}
+
 .project-details{
     width: 500px;
 }
