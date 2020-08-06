@@ -77,8 +77,29 @@ h1 strong {
 }
 .header{
     background-color: #1C1C1C;
+    color: white;
 }
 .header a {
     color: white;
     text-decoration: none;
+}
+.flexbox{
+display: flex;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: red;
+    
+}
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+
 }
