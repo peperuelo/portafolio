@@ -54,6 +54,8 @@ h1 strong {
     background-repeat: no-repeat;
     background-position-x: 750px ;
     margin: 0px;
+    display: flex;
+    align-items: center;
     
 }
 .project{
@@ -78,10 +80,18 @@ h1 strong {
 .header{
     background-color: #1C1C1C;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
 }
 .header a {
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+
 }
 .flexbox{
 display: flex;
@@ -93,6 +103,17 @@ display: flex;
     border-color: red;
     
 }
+.header ol{
+    display: flex;
+    justify-content: space-;
+    height: inherit;
+}
+.menu{
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+}
 ol,
 ul{
     margin: 0;
@@ -102,4 +123,7 @@ ul{
 figure{
     margin: 0;
 
+}
+footer{
+    background-color: #213844;
 }
