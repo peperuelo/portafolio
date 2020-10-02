@@ -1,5 +1,5 @@
-package POO.JAVA;
+    package POO.JAVA;
 
-public class Payment {
-    Integer id;
-}
+    public class Payment {
+        Integer id;
+    }

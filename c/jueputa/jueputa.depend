@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1597642681 source:c:\users\peper\documents\workspace\c\jueputa\main.c
+	<stdio.h>
+	<stdlib.h>
+

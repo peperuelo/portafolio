@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1597781864 source:c:\users\peper\documents\workspace\c\promedios\main.c
+	<stdio.h>
+	<stdlib.h>
+
